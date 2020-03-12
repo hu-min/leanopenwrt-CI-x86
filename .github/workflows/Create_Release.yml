@@ -1,10 +1,10 @@
 name: Create Release
 
 on:
-  schedule:
-    - cron: 0 5 * * 1
-#  watch:
-#    types: started
+#  schedule:
+#    - cron: 0 5 * * 1
+  watch:
+    types: started
 
 jobs:
   build:
